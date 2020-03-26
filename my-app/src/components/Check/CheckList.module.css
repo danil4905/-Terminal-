@@ -1,0 +1,52 @@
+.wrapper {
+    color: #262626;
+    font-size: 30px;
+    text-align: center;
+    margin: 0 auto;
+    padding: 15px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 10px;
+    margin-bottom: 30px;
+    background-color: #fff;
+    width: 60%;
+    border-radius: 15px;
+}
+
+.btn {
+    background-color: #04e58c;
+    width: 160px;
+    height: 50px;
+    font-size: 23px;
+    border: 1px solid white;
+    border-radius: 6px;
+    transition: 0.2s;
+}
+
+.btn:hover {
+    background-color: #04e58bc5;
+
+}
+
+.wrapper input,
+.react-tel-input .form-control {
+    font-size: 20px;
+    background: #FFFFFF;
+    border: 1px solid #CACACA;
+    border-radius: 5px;
+    width: 300px;
+    outline: none;
+    padding: 17px 0px 17px 15px;
+    transition: box-shadow ease .25s,
+        border-color ease .25s;
+    color: #495057;
+    margin: 10px;
+}
+
+@media (max-width: 580px) {
+
+    .wrapper input,
+    .react-tel-input .form-control {
+        width: 90%;
+        margin: 10 auto 10px auto;
+    }
+}

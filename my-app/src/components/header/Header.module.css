@@ -1,0 +1,17 @@
+h1 {
+    color: #262626;
+    text-align: center;
+}
+.header {
+    padding: 0px 30px 30px;
+    flex: 1 0 auto;
+}
+.header img {
+    width: 140px;
+    height: 140px;
+    margin: 0 auto;
+    display: block;
+}
+.add {
+    text-align: center;
+}
