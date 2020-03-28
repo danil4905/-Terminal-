@@ -45,10 +45,10 @@ const CheckList = (props) => {
           />
         </label>
         <br />
+        </form>
         <button onClick={onSendRequestClick} className={classes.btn}>
           Оплатить
           </button>
-      </form>
     </div>
   );
 }
