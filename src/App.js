@@ -3,7 +3,7 @@ import "./App.css";
 import Header from "./components/header/Header";
 import OperatorsContainer from "./components/operators/OperatorsContainer";
 import { BrowserRouter, Route } from "react-router-dom";
-import CheckListContainer from "./components/Check/CheckListContainer";
+import CheckListContainer from "./components/check/CheckListContainer";
 
 function App(props) {
   return (
